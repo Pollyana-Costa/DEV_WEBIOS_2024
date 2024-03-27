@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<HTML lang="pt-br">
+
+    <head>
+          <meta charset="UTF-8">
+
+    <body>
+            <!--Formulários-->
+
+            <h2>Pacotes de viagem</h2>
+            <form target="_blank" action="inscricao.html">
+
+                <fieldset>
+                    <legend>Informações sobre o usuário</legend>
+
+            <label> Nome: </label>
+            <input type="text"><br>
+
+            <label>Idade:</label>
+            <input type="number"><br>
+
+            <label >E-mail:</label>
+            <input type="text"><br>
+
+            <label >Telefone:</label>
+            <input type="number"><br>
+            </fieldset>
+
+            <!--Radio é a tag utilizada para implementar uma bolinha-->
+            <!--Input sempre em primeiro e Label em segundo-->
+            <!--O name tem que ser iguais, para o navegador entender que são uma dupla-->
+            <!--Checkbox é o que implementa o quadradinho, literalmente um check-->
+            <!--Fielset utilizado para implementar uma caixa, linhas ao redor-->
+            <!--Criar nome do título do quadrado-->
+
+            <input type="radio" name="ida">
+
+            <fieldset>
+
+            <label> Somente ida</label> <br>
+
+            
+            <input type="radio" name="ida"> 
+            <label>Ida e volta</label> <br>
+
+            </fieldset>
+               <br>
+
+               <h3>Quais serviços desejar contratar</h3>
+               
+               <fieldset>
+
+               <input type="checkbox"> 
+               <label >Compra de passagens</label> <br>
+              
+               <input type="checkbox"> 
+               <label >Reserva de veículo</label> <br>
+             
+               <input type="checkbox">
+               <label>Reserva de hospedagem</label> <br>
+
+               </fieldset>
+
+               <h3>Quantidade de crianças</h3>  
+               1
+               <input type="range">
+               10
+
+               <h4>Aeroportos</h4>
+
+               <select>
+
+
+               <option value=""></option>
+               <option value="Gru-Guarulhos">GRU-Guarulhos</option>
+               <option value="Congonhas">Congonhas</option>
+               <option value="Santos Dumont">Santos Dumont</option>
+               <option value="Aeroporto Internacional de Viracopos">Aeroporto Internacional de Viracopos</option>
+               <option value="Aeroporto do Campo de Marte">Aeroporto do Campo de Marte</option>
+
+
+               </select>
+
+                <br>
+                <br>
+
+                <input type="text" list="cidades">
+
+               <datalist id="cidades">
+
+               <option value="São Paulo"></option>
+               <option value="Amapá"></option>
+               <option value="Tocantis"></option>
+               <option value="Sergipe"></option>
+               <option value="Rio de Janeiro"></option>
+               <option value="Rio Grande do Sul"></option>
+               <option value="Rio Grande do Norte"></option>
+               <option value="Bahia"></option>
+               <option value="Paraíba"></option>
+               <option value="Roraima"></option>
+               <option value="Amazonas"></option>
+
+               </datalist>
+               
+               <br>
+
+               <label>Deixe suas observações</label> <br>
+               <textarea cols="30" rows="10"></textarea><br>
+               <input type="submit" value="Inscrição">
+
+
+              
+
+            </form>
+        
+            
+
+        </body>
+    </head>
+</HTML>
