@@ -1,0 +1,28 @@
+/* Aqui tem um comentário (comentário em mais de uma linha) */
+
+body{
+    /*background-color: rgb(red, green, blue);*/
+    background-color: #80c844;
+
+
+    h1{ 
+        text-align: center;
+        font-size:30px ;
+        font-family: "IBM Plex Mono"
+        
+        
+    }
+    
+
+p{
+
+    font-size: 20px;
+    font-family: "Playfair Display"
+
+}
+/*Ajustar o tamanho da imagem*/
+
+img{
+    height: 600px; /*altura*/
+    width: 600px; /*largura*/  
+}
