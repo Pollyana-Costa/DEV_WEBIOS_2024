@@ -6,8 +6,8 @@ body{
 
 
     h1{ 
+        text-shadow: 10px 10px 10px rgb(69, 110, 85);
         text-align: center;
-        font-size:30px ;
         font-family: "IBM Plex Mono"
         
         
@@ -15,14 +15,16 @@ body{
     
 
 p{
-
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
     font-family: "Playfair Display"
 
 }
 /*Ajustar o tamanho da imagem*/
 
-img{
-    height: 600px; /*altura*/
-    width: 600px; /*largura*/  
+img{ border-radius: 20px 0px 20px 0px; 
+    box-shadow: 10px 10px  black;
+
+    height: 50%; /*altura*/
+    width: 50%; /*largura*/  
 }
