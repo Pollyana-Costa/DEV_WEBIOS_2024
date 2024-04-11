@@ -1,4 +1,12 @@
-#secao{
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+
+#secao1{
     
 
     border: 1px solid black;
@@ -9,7 +17,26 @@
     /*padding-left: 50px;*/
     
     padding: 20px 50px 20px 50px;
+    margin-bottom: 20px;
+    
 
+}
+
+#secao2{
+
+    border: 1px solid palevioletred;
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px 5px 5px;
+    /*margin:(top/bottom) (right/left)*/
+    margin: 20px 50px;
+    
+}
+
+#secao3{
+
+    border: 1px solid blue;
+    border-radius: 5px 5px 5px;
+    padding: 20px 50px 20px 50px;
 }
 
 /*padding é o distanciamento do texto dentro da borda*/
