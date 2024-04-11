@@ -1,0 +1,19 @@
+body{
+    background-image: url(./imagem.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#primeiroParagrafo{
+    color: rgb(232, 228, 233);
+    border: 4px solid #d423cc;
+    border-radius: 5px 5px 5px 5px;
+    /* top, right bottom left*/
+}
+
+#segundoParagrafo{
+    color: aliceblue;
+    border: 4px solid #7cd7cf;
+    border-radius: 5px 5px 5px 5px;
+}
