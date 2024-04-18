@@ -9,9 +9,39 @@ min-widht/ max-widht*/
 
 /*Controle da largura da imagem*/
 
+body{
+    background-color: rgb(10, 104, 104);
+}
+
 
 @media(max-widht: 450px){
+
+    body{
+        background-color: brown;
+    }
     img{
         width: 200px;
     }
+    img:hover{
+        border: 5px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
+    }
+}
+
+
+
+@media(min-widht:452px){
+    body{
+        background-color: blueviolet;
+    }
+    img{
+        width: 400px;
+    }
+    img:hover{
+        box-shadow: 20px 20px 20px rgb(116, 50, 50);
+        border-radius: 20px;
+    }
+
+
 }
