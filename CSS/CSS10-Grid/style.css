@@ -1,12 +1,18 @@
 #container{
+    justify-items: center;
+    row-gap: 15px;
+    column-gap: 10px;
+    grid-template-rows: repeat(3,50px);
     display: grid;
-    grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px 50px
-
-    /*ou "grid-template-columns: repeat (9,50px)"*/
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px
+    /*ou "grid-template-columns: repeat (9,100px)"*/
+    
 
 }
 
 .itens{
-    border: 1px solid black;
+    height:50%;
+    width: 50%;
+    border: 5px solid rgb(179, 27, 27);
     background-color: rgb(76, 194, 154);
 }
