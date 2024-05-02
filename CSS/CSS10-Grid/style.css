@@ -1,4 +1,5 @@
 #container{
+    align-items: center;
     justify-items: center;
     row-gap: 15px;
     column-gap: 10px;
