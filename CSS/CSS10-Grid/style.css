@@ -1,0 +1,28 @@
+#container{
+    
+    row-gap: 15px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+    /*ou "grid-template-columns: repeat (9,100px)"*/
+    
+
+}
+
+.itens{
+    border: 5px solid rgb(179, 27, 27);
+    background-color: rgb(76, 194, 154);
+}
+#item-1{
+    grid-area: header;
+}
+#item-2{
+    grid-area: main;
+}
+#item-3{
+    grid-area: sidebar;
+}
+#item-4{
+    grid-area: footer;
+}
