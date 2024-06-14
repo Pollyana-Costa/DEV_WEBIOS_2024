@@ -5,10 +5,13 @@ function getImage(e) {
     // console.log(url_api);
     // Função fetch para buscar dados na API
     fetch(url_api, {
-        method: 'GET',
+    method: 'GET',  //opcional, usado em casos de querer atualizar o banco de dados, utilizando "PUT"
     })
         .then((response) => {
-            return response.json();
+            
+            console.log(response);
+            return response.json(); // Receber o JSON
+            
         })
         .then((data) => {
             // console.log(data);
@@ -22,3 +25,10 @@ function getImage(e) {
             document.querySelector('#imagem_aqui').innerHTML = imagem;
         });
 }              
+
+// fetch = função para consumir API 
+// strinfy >> Pega um JSON e transforma em um objeto
+// JSON >> Transforma um objeto em formato JSON
+
+// fetch(url).then(receber o JSON).then(tratar o JSON e mostrar as informações em tela para o usuario.).catch(catch é para tratar erros retornados pela API)
+// a informação acima é explicando o exercicio que foi feito.
